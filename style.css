@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'Young Serif';
+    src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+body {
+    background-color: hsl(30, 54%, 90%);
+    color: hsl(24, 5%, 18%);
+    padding: 10vh;
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 1rem;
+    padding: 2rem;
+    margin: 0;
+    width: min-content;
+    height: min-content;
+}
+
+img {
+    width: 650px;
+    border-radius: 1rem;
+}
+
+h1 {
+    font-family: 'Young Serif', serif;
+    font-weight: 400;
+    color: hsl(24, 5%, 18%);
+}
+
+h2 {
+    color: hsl(14, 45%, 36%);
+    font-family: 'Young Serif', serif;
+    font-weight: 400;
+}
+
+ol,
+ul {
+    padding-left: 1.5rem;
+}
+
+.preptime {
+    background-color: hsl(330, 100%, 98%);
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.preptime h2 {
+    color: hsl(332, 51%, 32%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+ul li {
+    padding: 0.5rem;
+}
+
+li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+}
+
+ol li {
+    padding: 0.25rem;
+}
+
+
+
+table {
+    width: 100%;
+}
+
+td {
+    padding: 8px;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+td:nth-child(even) {
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+}
+
+td:nth-child(odd) {
+    padding-left: 1rem;
+}
+
+tr:last-child td {
+    border: none;
+}
+
+hr {
+    border-top: hsl(30, 18%, 87%);
+}
+
+/*
+I haven't used this color in my page:
+Dark Charcoal: hsl(24, 5%, 18%)
+*/
